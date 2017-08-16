@@ -11,7 +11,6 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QCoreApplication::addLibraryPath("D:/Downloads/bank-20170811T141650Z-001/build-bank-Desktop_Qt_5_9_1_MinGW_32bit-Release/release/plugins/platforms");
     MainWindow w;
     w.show();
 
